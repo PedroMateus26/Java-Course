@@ -1,0 +1,6 @@
+package entities;
+
+public class OrderItens {
+	private Integer quantity;
+	private Double price;
+}

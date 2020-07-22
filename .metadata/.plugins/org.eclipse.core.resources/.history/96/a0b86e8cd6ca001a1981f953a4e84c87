@@ -1,0 +1,28 @@
+package entities;
+
+public class PessoaFisica extends Pessoa{
+
+	@Override
+	public double pagarImposto(double impostoPago, char p, double gastoSaude) {
+		if(impostoPago<20000.0) {
+			if(p=='s') {
+				return (impostoPago*0.15-gastoSaude*0.5);
+			}
+			else {
+				return (impostoPago*0.15);
+			}
+		}
+		else {
+			if(p=='n') {
+				return (impostoPago*0.25-gastoSaude*0.5);
+			}
+			else {
+				return (impostoPago*0.25);
+			}
+		}
+		
+	}
+
+
+	
+}

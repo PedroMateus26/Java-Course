@@ -1,0 +1,31 @@
+package entities;
+import java.util.Date;
+public class UsedProduct extends Product{
+	private Date manufacturedProduct;
+
+	public UsedProduct() {
+		
+	}
+	
+	public UsedProduct(Date manufacturedProduct) {
+		this.manufacturedProduct = manufacturedProduct;
+	}
+
+	public Date getManufacturedProduct() {
+		return manufacturedProduct;
+	}
+
+	public void setManufacturedProduct(Date manufacturedProduct) {
+		this.manufacturedProduct = manufacturedProduct;
+	}
+	
+	
+	@Override
+	public String priceTag() {
+		return super.priceTag()
+				+" (Manufactured Date: "
+				+manufacturedProduct
+				+")";
+	}
+	
+}

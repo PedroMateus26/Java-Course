@@ -1,0 +1,29 @@
+package entities;
+
+public class PessoaFisica extends Pessoa{
+	private String confirmacao;
+	private Double gastoSaude;
+	@Override
+	public double pagarImposto() {
+		if(super.getRendaAnual()<20000.0) {
+			if(confirmacao=='sim') {
+				return (super.getRendaAnual()*0.15-gastoSaude*0.5);
+			}
+			else {
+				return (super.getRendaAnual()*0.15);
+			}
+		}
+		else {
+			if(confirmacao=='nao') {
+				return (super.getRendaAnual()*0.25-gastoSaude*0.5);
+			}
+			else {
+				return (super.getRendaAnual()*0.25);
+			}
+		}
+		
+	}
+
+
+	
+}
