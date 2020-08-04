@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Aluguel/src"/>
+	<classpathentry kind="src" path="BitWise/src"/>
+	<classpathentry kind="src" path="CalculaImpostoPessoa/src"/>
+	<classpathentry kind="src" path="Enum1/src"/>
+	<classpathentry kind="src" path="ExercAccount/src"/>
+	<classpathentry kind="src" path="ExercicioExcecao/src"/>
+	<classpathentry kind="src" path="ExercicioFiles/src"/>
+	<classpathentry kind="src" path="ExercicioLista/src"/>
+	<classpathentry kind="src" path="PropostoComp/src"/>
+	<classpathentry kind="src" path="PropostoPolimorfismo/src"/>
+	<classpathentry kind="src" path="TesteDebug/src"/>
+	<classpathentry kind="src" path="testeEclipseJava/src"/>
+	<classpathentry kind="src" path="Xadrez/Xadrez-Java/src"/>
+	<classpathentry kind="output" path="ExercicioFiles/bin"/>
+</classpath>
