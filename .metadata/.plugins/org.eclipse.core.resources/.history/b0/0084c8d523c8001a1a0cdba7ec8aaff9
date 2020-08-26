@@ -1,6 +1,0 @@
-package entities;
-
-public class Products {
-	private String name;
-	private Double price;
-}
